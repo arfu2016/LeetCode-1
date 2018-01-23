@@ -17,12 +17,14 @@ import collections
 
 
 class Solution(object):
+    # the style of python 2
     def threeSum(self, nums):
         """
         :type nums: List[int]
         :rtype: List[List[int]]
         """
         nums, result, i = sorted(nums), [], 0
+        # initialization's new format
         while i < len(nums) - 2:
             if i == 0 or nums[i] != nums[i - 1]:
                 j, k = i + 1, len(nums) - 1
