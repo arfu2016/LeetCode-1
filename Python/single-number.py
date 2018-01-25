@@ -9,6 +9,14 @@
 
 import operator
 
+class Solution:
+    def select(self, nums)
+        return reduce(operator.xor(nums))
+
+
+
+import operator
+
 
 class Solution:
     """
